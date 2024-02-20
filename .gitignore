@@ -26,3 +26,6 @@ fabric.properties
 
 # SQL
 *.sql
+
+# exe
+*.exe
