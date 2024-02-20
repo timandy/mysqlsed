@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"mysqlsed/sed"
 	"os"
+
+	"mysqlsed/sed"
 )
 
 func main() {

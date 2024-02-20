@@ -5,9 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"mysqlsed/sqlutil"
 	"os"
 	"strings"
+
+	"mysqlsed/sqlutil"
 )
 
 const (

@@ -3,6 +3,7 @@ package sqlutil
 import (
 	"errors"
 	"fmt"
+
 	"github.com/xwb1989/sqlparser"
 )
 
