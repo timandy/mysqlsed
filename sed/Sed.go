@@ -33,9 +33,6 @@ func SedFile(sourcePath string, targetPath string, replaceTokens []ReplaceToken)
 		return errors.New(msg)
 	}
 	defer outFile.Close()
-	//创建目标文件写入器
-	writer := bufio.NewWriter(outFile)
-	defer writer.Flush()
 	//逐行处理
 	scanner := bufio.NewScanner(file)
 	scanner.Buffer(make([]byte, bufferSize), bufferSize)
